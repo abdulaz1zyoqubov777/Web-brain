@@ -1,1 +1,5 @@
-console.log(test);
+
+let x=12
+
+console.log(x);
+
