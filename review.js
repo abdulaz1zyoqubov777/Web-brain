@@ -6,3 +6,9 @@
     //console.log("musbat");}
 //else if (num <=0 && num >-1){
     //console.log("betaraf");}
+
+
+    //2
+    //let c = ++a;
+    
+//    let d= b++;
