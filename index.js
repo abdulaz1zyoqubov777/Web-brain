@@ -74,3 +74,94 @@
 // console.log(a === +b);=> false qiymati ham data type ham harhil
 
 
+// let oraliq=12;
+// if (oraliq>=9){
+// console.log("qoniqarli");
+// }
+// else if(oraliq>=12){
+//     console.log("alo");
+// }
+// else {
+//    console.log("qoniqarsiz"); 
+// }
+
+//?->if , :->else
+
+
+// let age=70;
+
+// console.log(age>60 ? "togri":"notogri");
+
+
+// console.log(0 || null || 1);
+// console.log(0 && 1);
+
+//nullish->null, undefined
+
+
+//console.log(1 ?? null ?? 0 );
+
+//for(begin, condition,step)
+
+// for(i=7 ; i>=1 ; i--){
+// console.log(i);
+// }
+
+
+// let oraliq=12;
+// if (oraliq>=9){
+// console.log("qoniqarli");
+// }
+//  else if (oraliq>=12){
+//     console.log("alo");
+// }
+// else {
+//     console.log("qoniqarsiz");
+// }
+
+
+// ?>->if , :->else
+
+
+// let age=70;
+// console.log(age>60 ? "togri":"notogri");
+
+// console.log(0 || 1 || undefined);
+// console.log(false && null);
+
+//nullish-> null, undefined
+
+// console.log(undefined ?? true);
+
+//for(begin , condition,step)
+
+// for(i=7;i>=1;i--){
+//     console.log(i);
+// }
+
+
+
+// let oraliq=12;
+// if (oraliq==12){
+// console.log("alo");
+// }
+// else if (oraliq>=9){
+//     console.log("qoniqarli");
+// }
+// else{
+//     console.log("qoniqarsiz");
+// }
+
+//?->if , :->else
+
+// let age=70;
+// console.log(age>60 ? "togri":"notogri");
+
+
+// console.log(1 || null);
+// console.log(0 && null);
+
+//nullish->null, undefined
+
+ console.log(false ?? true);
+console.log(null ?? true);
