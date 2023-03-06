@@ -1,6 +1,42 @@
 
+// function power(x, n){
+//     let pow=1;
+//     for (let a=0;a<n;a++){
+//         pow=pow*x;
+//     }
+//     return pow;
+// }
+//     let x=3;
+//     let n=2;
+//     let result = power(x, n);
+//     console.log(result);
 
-let a=1,b=1;
+
+    // function power(y, m){
+    //     let pow=1;
+    //     for (let a=0;a<m;a++){
+    //         pow=pow*y;
+    //     }
+    //     return pow;
+    // }
+    //     let y=3;
+    //     let m=3;
+    //     let result = power(y, m);
+    //     console.log(result);
     
-console.log(++a);
-console.log(b++);
+
+
+
+    function power(y, m){
+        let pow=1;
+        for (let a=0;a<m;a++){
+            pow=pow*y;
+        }
+        return pow;
+    }
+        let y=1;
+        let m=10;
+        let result = power(y, m);
+        console.log(result);
+
+
