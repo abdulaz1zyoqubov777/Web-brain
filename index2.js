@@ -1,5 +1,14 @@
 
-let a=1,b=1;
-    
-console.log(++a);
-console.log(b++);
+let name ="title"
+let user = {
+    name:"John",
+    surname:"Smith",
+    [name]:"Pate",
+    names:""
+}
+ 
+
+console.log(user.name);
+console.log(user.surname);
+console.log(user[name]);
+console.log(delete user.name);
