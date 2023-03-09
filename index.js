@@ -9,17 +9,22 @@
 
 
 
-let name ="title"
-let user = {
-    name:"John",
-    surname:"Smith",
-    [name]:"Pate",
-    names:""
-}
- 
 
-console.log(user.name);
-console.log(user.surname);
-console.log(user[name]);
-console.log(delete user.name);
+
+
+
+
+
+
+
+let salaries = {
+       John:100,
+       Ann:160,
+       Pete:130,
+   }
+   let wrap=0;
+   for(let i in salaries){
+       wrap=wrap+salaries[i]
+   }
+   console.log(wrap);
 
