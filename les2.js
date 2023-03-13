@@ -1,42 +1,63 @@
 
-// function power(x, n){
-//     let pow=1;
-//     for (let a=0;a<n;a++){
-//         pow=pow*x;
+//====================
+
+// let menu = {
+//     width:200,
+//     height:600,
+//     title:"my menu"
+// };
+// function multiplyNumeric(wrap){
+//     for(let i in wrap){
+//         if(typeof wrap[i] == "number"){
+//             wrap[i]=wrap[i]*2;
+//         }
 //     }
-//     return pow;
+//     console.log(wrap);
 // }
-//     let x=3;
-//     let n=2;
-//     let result = power(x, n);
-//     console.log(result);
+// multiplyNumeric(menu);
+
+//=========================================
+
+// let salaries = {
+//     John:100,
+//     Ann:160,
+//     Pete:130,
+// }
+
+// let sum=0
+// while(1){
+//    if(salaries){
+// sum=sum+salaries.Ann
+//    }
+// }
+// console.log(sum);
+
+//. []
+//=========================================================
 
 
-    // function power(y, m){
-    //     let pow=1;
-    //     for (let a=0;a<m;a++){
-    //         pow=pow*y;
-    //     }
-    //     return pow;
-    // }
-    //     let y=3;
-    //     let m=3;
-    //     let result = power(y, m);
-    //     console.log(result);
     
-
-
-
-    function power(y, m){
-        let pow=1;
-        for (let a=0;a<m;a++){
-            pow=pow*y;
-        }
-        return pow;
+    let ladder = { 
+    step: 0,
+    up(){
+        this.step++;
+    },
+    down(){
+        this.step--;
+    },
+    showStep:function(){
+        alert( this.step )
     }
-        let y=1;
-        let m=10;
-        let result = power(y, m);
-        console.log(result);
-
-
+    }
+    ladder.down()
+    console.log(ladder);
+    //===========================
+    function A(){
+        return new.target;
+    }
+    function B(){
+    return A;
+    }
+    let b=new A();
+    let a=new B();
+    console.log(a == b); 
