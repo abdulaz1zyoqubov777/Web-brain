@@ -1,12 +1,7 @@
-function getName(){
-    this.name="university"
-    console.log(this);
-}
-console.log(new getName().name);
 
-//constractor funksiya bn ocilganligi yoki ocholmaganligini bilish
-
-function getName(name){
-    console.log(new.target);
+let obj={
+    a:Math.min(2, 3),
+    b:Math.max(2, 3)
 }
-new getName("hello")
+const {a, b}=obj;
+console.log(Math.abs(a - b));
