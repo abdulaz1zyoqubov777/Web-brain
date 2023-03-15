@@ -1,7 +1,15 @@
 
-let obj={
-    a:Math.min(2, 3),
-    b:Math.max(2, 3)
+
+function truncate() {
+    let str="webbrain academy";
+    console.log(str.slice(0, 5) );
+    
 }
-const {a, b}=obj;
-console.log(Math.abs(a - b));
+truncate();
+//=======================================
+let str="$1200"
+function getCurrency() {
+    console.log(str.substring(1,str.length));
+    
+}
+getCurrency();
