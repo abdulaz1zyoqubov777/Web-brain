@@ -1,14 +1,19 @@
 
-let name ="title"
-let user = {
-    name:"John",
-    surname:"Smith",
-    [name]:"Pate",
-    names:""
-}
- 
 
-console.log(user.name);
-console.log(user.surname);
-console.log(user[name]);
-console.log(delete user.name);
+//=========================
+
+function getName(str){
+    let res={};
+    for (i of str){
+       if (i in res){
+          console.log(str.slice(0,4));
+          res[i]++;
+       }
+       else res[i]=1;
+ 
+    }
+    console.log(str,res);
+ }
+ getName("webbr@<>n!_2022");
+ 
+ 
