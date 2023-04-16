@@ -74,3 +74,33 @@
 // dep.getInfo()
 
 
+
+
+//=====================Homework========================================================================================
+
+
+class Animal{
+    constructor(name){
+        this.name=name;
+    }
+}
+class Rabbit{
+    constructor(name){
+        this.name=name;
+        this.created=Date.now();
+    }
+}
+let rabbits = new Rabbit("white rabbit")
+alert(rabbits.name)
+///==============================
+
+class Rabbits extends Object{
+    constructor(name){
+        super(name)
+        this.name=name;//bu yerda super ishlaydi parentdagi malumotni yurgizdirib beradi
+    }
+}
+let rabbit=new Rabbits("Rab")
+//console.log(rabbit.hasOwnProperty('name'));
+alert(rabbit.hasOwnProperty('name'))
+
